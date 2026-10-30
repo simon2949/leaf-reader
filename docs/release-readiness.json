@@ -1,0 +1,68 @@
+{
+  "reviewedAt": "2026-10-30",
+  "checks": [
+    {
+      "id": "audio-licence",
+      "status": "resolved",
+      "reason": "v0.1.13 removes all bundled human recordings, legacy collection metadata and bulk importer; online and cached recordings require consistent per-file licence and credit.",
+      "evidence": "docs/resources.md; tools/check_audio.py; tests/AudioPolicyTest.java; empty app/src/main/assets/audio/manifest.json",
+      "scope": [
+        "source",
+        "apk",
+        "production-apk"
+      ]
+    },
+    {
+      "id": "mespeak-corresponding-source",
+      "status": "resolved",
+      "reason": "Supplied readable meSpeak sources with visible wrapper adaptation, matching eSpeak 1.45.04 C++/dictionary/phoneme inputs, retained licences and build scripts; JS rebuild WAV equivalence and native builds verified. Historical C++ to JS toolchain reproduction is not claimed.",
+      "evidence": "docs/offline-speech.md; docs/offline-speech-evidence.json; third_party/offline-speech/SOURCES.json; npm run check:speech; npm run test:speech; npm run test:speech-native",
+      "scope": [
+        "source",
+        "apk",
+        "production-apk"
+      ]
+    },
+    {
+      "id": "repository-owner",
+      "status": "resolved",
+      "reason": "Owner supplied https://github.com/simon2949/leaf-reader.git for upload.",
+      "evidence": "User supplied repository URL; authenticated GitHub API confirmed simon2949/leaf-reader private with push/admin permissions on 2026-10-29.",
+      "scope": [
+        "source",
+        "apk",
+        "production-apk"
+      ]
+    },
+    {
+      "id": "release-signing",
+      "status": "pending",
+      "reason": "Current milestone uses the verified existing debug certificate. Plan owner-held production signing and backup migration before a production APK release; this is not a prerequisite for publishing source code.",
+      "evidence": "",
+      "scope": [
+        "production-apk"
+      ]
+    },
+    {
+      "id": "historical-audio-distribution",
+      "status": "resolved",
+      "reason": "Owner authorized a fresh public repository history. Original repository and its old releases remain a separate private archive; only the clean current snapshot and v0.1.13 APK are published.",
+      "evidence": "docs/public-release.md; tools/check_public_history.py; clean independent repository roots and public refs checked before visibility change",
+      "scope": [
+        "source",
+        "apk",
+        "production-apk"
+      ]
+    }
+  ],
+  "milestone": {
+    "version": "0.1.13",
+    "tag": "v0.1.13",
+    "channel": "pre-release",
+    "owner": "simon2949",
+    "proposedRepository": "simon2949/leaf-reader",
+    "repositoryConfirmed": true,
+    "initialUploadVisibility": "private",
+    "publicationStrategy": "independent-clean-history; original retained as private archive"
+  }
+}

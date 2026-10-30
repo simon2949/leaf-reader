@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-30",
+  "version": "0.1.13",
+  "versionCode": 14,
+  "removedBundledRecordings": 3002,
+  "removedAudioBytes": 8177272,
+  "bundledRecordings": 0,
+  "assetCount": 70,
+  "dictionaryEntries": 401818,
+  "apkBytes": 28488358,
+  "apkSha256": "73a00e8230e1b631d13ad3920fd708beea6bf08045884398c4a9b45b782cb609",
+  "signingCertificateSha256": "5bf8a861968c95f61ee24f40bc8d37994a0c6422ddf12003619c580329e3cb56",
+  "sameSigningCertificateAsPrevious": true,
+  "apkAssetsMatchWorkspace": true,
+  "liveNetworkSample": {
+    "word": "adventure",
+    "bundledRecordingCount": 0,
+    "source": "https://commons.wikimedia.org/wiki/File:En-us-adventure.ogg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Dvortygirl",
+    "productionPolicyAccepted": true,
+    "downloadedBytes": 14298,
+    "sha256": "02a78d8b4bdd1794b078d7f03d4aabb90d94dfbbfa50821a4f98cf6eab351bab",
+    "oggHeaderValid": true
+  },
+  "liveSampleScope": "Host HTTPS and production AudioPolicy; test audio not retained. Not an Android phone end-to-end network test.",
+  "tests": [
+    "17 core assertions",
+    "Java navigation, asset MIME and AudioPolicy",
+    "all browser regression suites plus new audio credits and replay checks",
+    "96 rebuilt speech WAVs byte-identical",
+    "EPUB/MOBI import and ZIP backup/restore",
+    "all 70 asset hashes and dictionary consistency",
+    "APK asset bytes and signing certificate",
+    "Android assembleDebug and lintDebug passed"
+  ],
+  "publicHistoryCleanup": "pending; old private commits/releases retained"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "leaf-offline-speech-source",
+  "version": "0.1.12",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check:speech": "python3 tools/check_speech_source.py",
+    "build:speech": "node tools/build_speech_source.cjs",
+    "test:speech": "node tests/speech-source.cjs",
+    "test:speech-native": "python3 tools/test_speech_native.py"
+  },
+  "devDependencies": {
+    "terser": "5.44.1"
+  }
+}

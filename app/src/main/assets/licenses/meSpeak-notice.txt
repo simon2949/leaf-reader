@@ -1,0 +1,4 @@
+meSpeak.js 2.0.7, Norbert Landsteiner, mass:werk, https://www.masswerk.at/mespeak/
+Based on eSpeak and speak.js; licensed under GNU GPL version 3.
+Source: https://www.masswerk.at/mespeak/mespeak.zip
+See GPL-3.0.txt.

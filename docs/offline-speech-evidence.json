@@ -1,0 +1,173 @@
+{
+  "checkedAt": "2026-10-30",
+  "scope": "Existing Leaf v0.1.12 engine sources; no app or APK change",
+  "provenance": {
+    "suppliedSourceFiles": 1640,
+    "runtimeDifferentLines": [
+      2,
+      97
+    ],
+    "generatedEngineLineSha256": "baf4dc40c521b713b3bc7cbd36043fb7903b994b4bd8e75d45bab5cc31779a0d",
+    "dataSha256": {
+      "config": "116be03514afc03bd31b0e3786ec099d2aa08fbce9ed45e5907e35fc8089ff9b",
+      "phontab": "e6d8865ceab60da3378479d2c738270a9adbebfb31890a0bb632fe34088a735d",
+      "phonindex": "47fe1883ed50f5769403cd255d2b190b8d6781f2fdc3451b27b5ff3c52c3b493",
+      "phondata": "641de3fbeda9ef13b61b5640a9f8a162a8e214a0fe606add5b776e40d31530d6",
+      "intonations": "29acf664c96efe1ebee2e6244f6c731a00b8a7fb9f289c4846e0ddb10b4ce490",
+      "en_dict": "7f0fcfb5152ba97029120d26a1a78d18c6427e8cc08bca943cb71125b5e9093e",
+      "voices/en/en-us": "cc6a72cf04add17be7cce9b0bd548ee794aee8bce508dfa794453e3bb5b7050d"
+    },
+    "cppDebugReferenceFiles": 21,
+    "phonemePreferredSourcesIncluded": true
+  },
+  "jsRebuild": {
+    "terser": "5.44.1",
+    "options": {
+      "compress": false,
+      "mangle": false
+    },
+    "outputs": [
+      {
+        "name": "mespeak.js",
+        "bytes": 24190,
+        "sha256": "ec99664a41eefd313a8db9d4239bd297966f27493a4ad5ba7e9c8303f366fda5"
+      },
+      {
+        "name": "mespeak-core.js",
+        "bytes": 2877559,
+        "sha256": "130dc942537a4344c3c20138d44af6d94d328cef0cb7a94151c297dc5b018c16"
+      }
+    ]
+  },
+  "wavEquivalence": {
+    "checks": 96,
+    "rate": 22050,
+    "wholeWavByteIdentical": true,
+    "automaticRestart": true,
+    "samples": [
+      {
+        "text": "sesquipedalian",
+        "bytes": 64412,
+        "sha256": "ba2cc06a667bce4d4ba5be66153f394ab680e25920999c218fbf8ec137751784"
+      },
+      {
+        "text": "attention",
+        "bytes": 45354,
+        "sha256": "b7c7c339ce12162ed5714bb0c392d61ff72a1f7178da551bc3f91d1e90aefba3"
+      },
+      {
+        "text": "quiet",
+        "bytes": 40798,
+        "sha256": "fbe03a2f0fd66934a1c414e0d5603561b73c53e26e4890705c5d183bb88dd63e"
+      },
+      {
+        "text": "photograph",
+        "bytes": 48682,
+        "sha256": "b61ad4e2b550a588636018aab02a811b76429379a9b4d4da6e4d15fffc2fa4aa"
+      },
+      {
+        "text": "read",
+        "bytes": 33842,
+        "sha256": "cc7083d565596907708c16a0ba7a0e5c8179b61db8994a5510d82c6fa04cf67b"
+      },
+      {
+        "text": "record",
+        "bytes": 39712,
+        "sha256": "b7b495e8d10d59ee8be425dd8cf8ebecf926ae0be9779296983154f86b07ab49"
+      },
+      {
+        "text": "extraordinary",
+        "bytes": 51786,
+        "sha256": "b5054e4874cb0a7a22d57457dfc7ba26cacbf1beb04447a1f6399e168e988300"
+      },
+      {
+        "text": "can't",
+        "bytes": 37898,
+        "sha256": "6822d57e56d613a942895042f65d97c724d94a183f6301fd078399184f23d47e"
+      },
+      {
+        "text": "co-operate",
+        "bytes": 51934,
+        "sha256": "42f3605056f3f0e9ba1147555d62cd0f05f621a3911f3ebcaf6b4c913658efc1"
+      },
+      {
+        "text": "Café",
+        "bytes": 39706,
+        "sha256": "d09b46cf9c19734c4f7f6ec6640f4b4f0a2722e8b8a02e6b7b807b87f55b5405"
+      },
+      {
+        "text": "naïve",
+        "bytes": 37302,
+        "sha256": "cdda8a2ac7c2861d99b67c508fa0ed1720918657bbab32edff5cf77fd196f959"
+      },
+      {
+        "text": "Hello, world!",
+        "bytes": 70948,
+        "sha256": "2711eeb7f2e9e18464f9e848a5cf3e54ac287a62cd1bd17d6444c495a4e70ecf"
+      }
+    ]
+  },
+  "nativeBuild": {
+    "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "sourceModified": false,
+    "samples": [
+      {
+        "word": "sesquipedalian",
+        "sampleRate": 22050,
+        "frames": 32184,
+        "wavSha256": "71bccbd191bcf22d7848282e861eb6b52fad35cfcb3304cab6c1d610ea638df8"
+      },
+      {
+        "word": "attention",
+        "sampleRate": 22050,
+        "frames": 22655,
+        "wavSha256": "f489fdaa7f729e3a486879276bc108c051b5dcea8d1f43eb055e0f49413e2395"
+      },
+      {
+        "word": "quiet",
+        "sampleRate": 22050,
+        "frames": 20377,
+        "wavSha256": "0611da7c8fcddadc717cac0661af5a7b078a3df80760154c6cd7315497ca4972"
+      },
+      {
+        "word": "photograph",
+        "sampleRate": 22050,
+        "frames": 24319,
+        "wavSha256": "5cd790dfde8181fb5b817d2fdae70bb31cea77030a3ebbaac9151e4d870c71f9"
+      },
+      {
+        "word": "extraordinary",
+        "sampleRate": 22050,
+        "frames": 28297,
+        "wavSha256": "dacce09d5a16d921974154780f31d78381142c27f60632324797bec4dd012d9c"
+      }
+    ]
+  },
+  "historicalCppToJsReproduced": false,
+  "limitation": "Readable-JS to Web-core and C++ to native builds were verified separately. Do not claim a historical LLVM/Emscripten end-to-end or byte-reproducible C++ cross-build.",
+  "browserPlayback": {
+    "buffers": [
+      {
+        "frames": 70060,
+        "rate": 48000,
+        "nonzero": true
+      }
+    ],
+    "externalRequests": [],
+    "errors": [],
+    "source": "离线合成美音"
+  },
+  "standaloneSourcePackageSmoke": {
+    "npmCi": true,
+    "provenanceCheck": true,
+    "jsWavEquivalence": true,
+    "nativeCppSynthesis": true,
+    "usesOriginalWorkspace": false
+  },
+  "githubValidation": {
+    "url": "https://github.com/simon2949/leaf-reader/actions/runs/40977782253",
+    "conclusion": "success",
+    "commit": "d1d4fcc1b6ce125e9b2fd4f584f92de7ce991410",
+    "upstreamBytesPreservedByGitAttributes": true
+  }
+}

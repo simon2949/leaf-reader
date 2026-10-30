@@ -1,0 +1,282 @@
+{
+  "audio/manifest.json": {
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "dictionary.db": {
+    "bytes": 53137408,
+    "sha256": "fce32bebc5282c25156926040f2f63677332c3c8687a26fcf106366ea528ac77"
+  },
+  "licenses/DejaVu-fonts.txt": {
+    "bytes": 3859,
+    "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+  },
+  "licenses/ECDICT.txt": {
+    "bytes": 1063,
+    "sha256": "f8552dd246f61a4e064569eae6194a01c6b3d63b03bf27c6ca863593c549ed0f"
+  },
+  "licenses/Foliate.txt": {
+    "bytes": 1070,
+    "sha256": "b621ffc351fe263bc9b09dd0bc1c9332fda9c462a3904c1e4f0b4d3236b9c28c"
+  },
+  "licenses/GPL-3.0.txt": {
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  "licenses/Liberation-fonts.txt": {
+    "bytes": 5756,
+    "sha256": "f32df582a2aab128c07b2f7e36e7b928dc5f6bd82657b905c04f91459f9e5cf9"
+  },
+  "licenses/Noto-fonts.txt": {
+    "bytes": 5208,
+    "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+  },
+  "licenses/Readability.txt": {
+    "bytes": 553,
+    "sha256": "a5b1e8181751ce05b85b7bfaa832b785e87086250a5148e679d17ca9bdcfa958"
+  },
+  "licenses/fflate.txt": {
+    "bytes": 1069,
+    "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243"
+  },
+  "licenses/meSpeak-notice.txt": {
+    "bytes": 216,
+    "sha256": "5414d1ff16411e3c27c8a9c59a56d9d1a5d71fcbf752f0c93a0c746b8dd62e22"
+  },
+  "licenses/zip.js.txt": {
+    "bytes": 1501,
+    "sha256": "1b7ebc8d7889ed25491484ab2b102370742ca6c0b26650a0c62cc2269b579b84"
+  },
+  "resource-stats.json": {
+    "bytes": 103,
+    "sha256": "9754c47fc85304d0a3423a372afb46da349f641b9c3b5861567be72e92982355"
+  },
+  "web/app.js": {
+    "bytes": 52892,
+    "sha256": "fa67b04d0a20d965838435a5d7f53f6745a2ba34bdb7a52a77177de02223b09f"
+  },
+  "web/core.js": {
+    "bytes": 3785,
+    "sha256": "8070f2c1924f1a5fc77057c0c39e881aff6f5c0b999e0e98697b340ac617bb1e"
+  },
+  "web/daily-phrases.js": {
+    "bytes": 9744,
+    "sha256": "39d4dab457dcc519303040d608ea635834e96282b6c547e00c8a77f93ba40464"
+  },
+  "web/font-picker.js": {
+    "bytes": 2790,
+    "sha256": "186a9a3322b51716202c5bf6b1be439db54f2bae5789e0ea4fdc402a10862395"
+  },
+  "web/fonts/DejaVuSans.ttf": {
+    "bytes": 759720,
+    "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+  },
+  "web/fonts/DejaVuSerif.ttf": {
+    "bytes": 380660,
+    "sha256": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab"
+  },
+  "web/fonts/LiberationMono-Regular.ttf": {
+    "bytes": 319624,
+    "sha256": "395fa5ab8d40c8eba390ced528744ea75a7f69aabf3e68b6f925ca0e39a27370"
+  },
+  "web/fonts/LiberationSans-Regular.ttf": {
+    "bytes": 410820,
+    "sha256": "4659bc0c58c5028dd488ec928d41d9265db43d9b669fc14ca8b0832daca7b144"
+  },
+  "web/fonts/LiberationSerif-Regular.ttf": {
+    "bytes": 393692,
+    "sha256": "705903ae1382f0150f115d6f10a30f5b2f3d6ade649c474afe6366c39174fb65"
+  },
+  "web/fonts/NotoSans-Regular.ttf": {
+    "bytes": 512672,
+    "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d"
+  },
+  "web/fonts/NotoSerif-Regular.ttf": {
+    "bytes": 588876,
+    "sha256": "9d7583b7dc9e812afd32a14280c5cac3160012efe50c8d08938f4fea266ff67f"
+  },
+  "web/images/daily/amber-hills.svg": {
+    "bytes": 1756,
+    "sha256": "b565dce499f6c0f17db3676ea2efe9f005e88d35ea69e537d3b3d6a3d200f0b7"
+  },
+  "web/images/daily/blue-islands.svg": {
+    "bytes": 1869,
+    "sha256": "e0bdc27e20b56f890686d2dcc7f7833375f0541d39389e73c57817a0f16bc604"
+  },
+  "web/images/daily/misty-lake.svg": {
+    "bytes": 1846,
+    "sha256": "8e554d66a3796bcfce62636b1ff557b38a3d1a068a0aed93ec8bc1637ff48ab6"
+  },
+  "web/images/daily/moonlit-peaks.svg": {
+    "bytes": 2212,
+    "sha256": "0d89409c2d43f91360f43013de9a21bc7b065d7284f206f0c2b48c61643906c6"
+  },
+  "web/images/daily/pine-valley.svg": {
+    "bytes": 2395,
+    "sha256": "adacb6c9e1648e68df70798929b36c55ff036d9b6195c2787748428c1aaab893"
+  },
+  "web/images/daily/quiet-coast.svg": {
+    "bytes": 1869,
+    "sha256": "3c2c3ddcfb3760eeac9f428e1ba2c2de46654b8eca3c38c04e581974b1ced86c"
+  },
+  "web/images/daily/rose-dawn.svg": {
+    "bytes": 1943,
+    "sha256": "14de4ef034da50da72baa19d5dec01dbb80596efba86370d5cccc8f44ae05ef8"
+  },
+  "web/images/daily/summer-fields.svg": {
+    "bytes": 1756,
+    "sha256": "c41d92194d358d24a6db324459164d4e68bc0196e60ebd1f3a79bd50aeee28df"
+  },
+  "web/index.html": {
+    "bytes": 2855,
+    "sha256": "732c261d766ddf9a13e8afa15e9b735553a91202f57a5bf47c090fc1b8b3d8e9"
+  },
+  "web/platform.js": {
+    "bytes": 4979,
+    "sha256": "f346d5628931a440408366d7a06b7a1d45e1b322343881909879cf870679ef36"
+  },
+  "web/reader-chrome.js": {
+    "bytes": 1134,
+    "sha256": "bf1cdfd0eec5130fd18f0da2deaa4e89f45edc04485638e41a539c86d674826d"
+  },
+  "web/reader-interactions.js": {
+    "bytes": 2087,
+    "sha256": "0716a0cbbc05507212b4ef5481d10ab421fde9eb50cef021193d29ead1c81492"
+  },
+  "web/reading-preferences.js": {
+    "bytes": 1617,
+    "sha256": "c2e7caaf201e3bdb961cb0fd67bbe69995872699369e4c8bf0ff73db22d06dfc"
+  },
+  "web/style.css": {
+    "bytes": 27718,
+    "sha256": "9420adfd7a9a39d7f127f07ec209db2be12b293fa3ee2be1173285086d344f5f"
+  },
+  "web/vendor/Readability.js": {
+    "bytes": 89980,
+    "sha256": "34dcab3d0832d0019f02990eed6b6124e029e8c32b9f0c6f2550544ff8dff174"
+  },
+  "web/vendor/foliate/LICENSE": {
+    "bytes": 1070,
+    "sha256": "b621ffc351fe263bc9b09dd0bc1c9332fda9c462a3904c1e4f0b4d3236b9c28c"
+  },
+  "web/vendor/foliate/comic-book.js": {
+    "bytes": 1811,
+    "sha256": "7f3bf77561ca77300d5244015fcb1f73805787db246928074dc49fb56c88762e"
+  },
+  "web/vendor/foliate/dict.js": {
+    "bytes": 7898,
+    "sha256": "9c5f7d9d87ebec302594178f8960539a4573830f9ef84c8a915f599047dcc4aa"
+  },
+  "web/vendor/foliate/epub.js": {
+    "bytes": 43709,
+    "sha256": "f27f138f568396817a926668c340877d1fc3a4e52e6d4d4cb8c8bdb43a049a69"
+  },
+  "web/vendor/foliate/epubcfi.js": {
+    "bytes": 13233,
+    "sha256": "e1a688ad5c84bf31f33cef467f92c7a6d060a0f17ec37c1d3c048e9c7b1cf645"
+  },
+  "web/vendor/foliate/eslint.config.js": {
+    "bytes": 789,
+    "sha256": "01f0806b12bd71b4973cd4890fad3ba00830d82c283ac92a7947e8bd197cad80"
+  },
+  "web/vendor/foliate/fb2.js": {
+    "bytes": 12273,
+    "sha256": "09a7890bf191f1b6c6dd435fae2868b86c75e73e00731b0051c02f2a998a180a"
+  },
+  "web/vendor/foliate/fixed-layout.js": {
+    "bytes": 11994,
+    "sha256": "dbf256a5efea5417e60b68c12623fe34b438d5fc2c11d1830fd46ae696f0e13c"
+  },
+  "web/vendor/foliate/footnotes.js": {
+    "bytes": 4161,
+    "sha256": "d377b45d2ac05290c42873612ec0a92e640938e8be8ed850a467133a883388de"
+  },
+  "web/vendor/foliate/mobi.js": {
+    "bytes": 47793,
+    "sha256": "88fb49b44226b54df8a6b49bbc5f3d532e68c17666a29b00b4f2039770478008"
+  },
+  "web/vendor/foliate/opds.js": {
+    "bytes": 10672,
+    "sha256": "4b9f2a8f77ba191e1bb892032fd21a4e2ca14e5ff0b14239421d331556fa352f"
+  },
+  "web/vendor/foliate/overlayer.js": {
+    "bytes": 7051,
+    "sha256": "d3d3396e3083277ccbd4f17c407621159b22a407107e43ce75ca3014578094fb"
+  },
+  "web/vendor/foliate/paginator.js": {
+    "bytes": 46299,
+    "sha256": "420428cf4d6d3d810736fe1a140e11024d91d97344374b6de70e95ca3a29cf27"
+  },
+  "web/vendor/foliate/pdf.js": {
+    "bytes": 7089,
+    "sha256": "684da69d4366f2fee1e08423d02e727c32c553f2487bba661c6a1870b0508475"
+  },
+  "web/vendor/foliate/progress.js": {
+    "bytes": 4255,
+    "sha256": "544f5e90babc0cb31c5caf971a5f06dd6249ec06600cb62f672fa7179811fde1"
+  },
+  "web/vendor/foliate/quote-image.js": {
+    "bytes": 3127,
+    "sha256": "32df52ebce383bade52d84e7510270e3c192bea51db070f4458a44d3cacf05e7"
+  },
+  "web/vendor/foliate/reader.js": {
+    "bytes": 8883,
+    "sha256": "a31da690c0deea3f4865bc00798d4b839ccaa8811fe1ede2e8cc7ee4ab41e57e"
+  },
+  "web/vendor/foliate/rollup.config.js": {
+    "bytes": 1082,
+    "sha256": "4f2526f2af90a2ea4fc1030dbce8426f916366f111ed1c3851e6100c82ad2207"
+  },
+  "web/vendor/foliate/search.js": {
+    "bytes": 5651,
+    "sha256": "31e846bdc095a645de0e94f7baa2c9e136561a363a2f774d4032e72cfa1fb0ef"
+  },
+  "web/vendor/foliate/text-walker.js": {
+    "bytes": 1531,
+    "sha256": "4ad740ab6142b5be428700ef4d270253cef6649cf6e047ae7d2698a7aec65e92"
+  },
+  "web/vendor/foliate/tts.js": {
+    "bytes": 9568,
+    "sha256": "530d34605b758a5e2260438964a85bb9909bcb49e8848e303fe22cac63859026"
+  },
+  "web/vendor/foliate/uri-template.js": {
+    "bytes": 2010,
+    "sha256": "28bd96a9960cbfb07e14d4b9e9f334f28d1c3c96cbd8d58880631dcb1387e9f6"
+  },
+  "web/vendor/foliate/vendor/fflate.js": {
+    "bytes": 89198,
+    "sha256": "8cc1f687e0159e977addb6b85e274dbd11e622cf151f4fcb7b85d49622ea43e7"
+  },
+  "web/vendor/foliate/vendor/zip-umd.js": {
+    "bytes": 135801,
+    "sha256": "10dcef7159de1be9399f8889edd73c17ca841560b33a61dccae4808af462446c"
+  },
+  "web/vendor/foliate/vendor/zip.js": {
+    "bytes": 115,
+    "sha256": "a55606f97fdd2053800a2823aa95b5b8491c3576d0908c88a0aa47efdfae8af4"
+  },
+  "web/vendor/foliate/view.js": {
+    "bytes": 22850,
+    "sha256": "e0093af921feb03bb58fb51aeedc321fa108a4158d215f6913ecf7925415c945"
+  },
+  "web/vendor/mespeak/en-us.json": {
+    "bytes": 114969,
+    "sha256": "757de5de43981ac734c51ee350632049a65c6a04b9ed1a630b9916cf88440721"
+  },
+  "web/vendor/mespeak/mespeak-core.js": {
+    "bytes": 1523641,
+    "sha256": "d5f6e6c85c63fd9126f8d8af5418c21ec84519cc8aa31ba84e388afd118883bb"
+  },
+  "web/vendor/mespeak/mespeak.js": {
+    "bytes": 24534,
+    "sha256": "84a321923cf7a552cc5d2c97c22d739a97e372557917de89280c4fb4ae040891"
+  },
+  "web/vocabulary-view.js": {
+    "bytes": 14770,
+    "sha256": "1dafea191249ace9b7d465f26ccf23c151136096d44fa90b1a2caa926d09d515"
+  },
+  "web/vocabulary.js": {
+    "bytes": 4226,
+    "sha256": "d57020304a867d245a6fd42dd5e2584e02251539fd5ab4bb15f5205ab81dbaf3"
+  }
+}

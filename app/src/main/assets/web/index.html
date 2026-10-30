@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f6f4ed"><meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline' blob:; img-src 'self' blob: data:; connect-src 'self' blob:; frame-src blob: 'self'; worker-src blob: 'self'; object-src 'none'; base-uri 'self'"><title>叶读 · Leaf</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="shell">
+ <header class="main-header"><h1 id="page-title">阅读</h1><button class="icon-button" id="header-settings" aria-label="打开设置">⚙</button></header>
+ <main id="main"></main>
+ <nav class="bottom-nav" aria-label="主导航"><button data-tab="home" class="active"><span>◫</span>阅读</button><button data-tab="library"><span>▤</span>书架</button><button data-tab="words"><span>☆</span>生词本</button><button data-tab="settings"><span>☷</span>设置</button></nav>
+</div>
+<section id="reading" hidden aria-label="阅读器">
+ <header id="reader-header" hidden><button id="reader-back" class="icon-button" aria-label="返回书架">‹</button><span id="reader-title"></span><button id="bookmark" class="icon-button" aria-label="添加书签">☆</button></header>
+ <div id="reader-body"></div>
+ <button id="reader-status" aria-label="显示阅读菜单"><span id="reader-status-chapter"></span><span id="reader-status-progress">0%</span></button>
+ <footer id="reader-footer" hidden>
+  <div id="reader-progress-area"><div class="reader-progress-meta"><span id="reader-current-chapter"></span><button id="progress-label" aria-label="跳转阅读进度">0%</button></div><div class="reader-chapter-controls"><button id="previous" aria-label="上一章">上一章</button><input id="reader-progress" type="range" min="0" max="100" step="0.1" value="0" aria-label="阅读进度"><button id="next" aria-label="下一章">下一章</button></div></div>
+  <nav class="reader-actions" aria-label="阅读菜单"><button id="toc" aria-label="目录与书签"><span class="reader-action-icon"></span><span>目录</span></button><button id="reader-mode" aria-label="切换到夜间模式"><span class="reader-action-icon"></span><span id="reader-mode-label">夜间</span></button><button id="reader-menu" aria-label="阅读设置"><span class="reader-action-icon"></span><span>设置</span></button></nav>
+ </footer>
+</section>
+<div id="scrim" hidden></div><section id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title"></section>
+<div id="toast" role="status" hidden></div>
+<script src="vendor/mespeak/mespeak.js"></script><script src="vendor/Readability.js"></script><script type="module" src="app.js"></script>
+</body></html>

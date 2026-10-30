@@ -1,0 +1,57 @@
+
+//====================================================
+//  Amhari (Ethiopia)
+//====================================================
+
+
+phoneme i
+  vowel starttype #i endtype #i
+  length 160
+  IfNextVowelAppend(;)
+  FMT(vowel/i)
+endphoneme
+
+phoneme e
+  vowel starttype #e endtype #e
+  length 180
+  FMT(vowel/e_mid2)
+endphoneme
+
+phoneme y
+  vowel starttype #@ endtype #@
+  ipa ɨ
+  length 160
+
+  // assume that word-final [y] are not added by am_rules
+  // Only allow [y] in first or last syllables
+  IF thisPh(isFinalVowel) THEN
+  ELIF thisPh(isFirstVowel) THEN
+  ELSE
+    ChangePhoneme(NULL)
+  ENDIF
+  FMT(vowel/i#_2)
+endphoneme
+
+phoneme a
+  vowel starttype #a endtype #a
+  length 180
+  FMT(vowel/a)
+endphoneme
+
+phoneme @
+  vowel starttype #@ endtype #@
+  length 170
+  FMT(vowel/@_low)
+endphoneme
+
+phoneme o
+  vowel starttype #o endtype #o
+  length 170
+  FMT(vowel/o-_4)
+endphoneme
+
+phoneme u
+  vowel starttype #u endtype #u
+  length 160
+  FMT(vowel/u_2)
+endphoneme

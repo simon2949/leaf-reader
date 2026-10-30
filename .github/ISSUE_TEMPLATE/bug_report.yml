@@ -1,0 +1,29 @@
+name: 报告问题
+description: 阅读、查词或其他功能出现异常
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 出现了什么问题？
+      description: 说明预期和实际结果；不要提交个人书籍、备份、账号或密码。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 如何重现？
+      description: 写明操作步骤；格式问题请提供文件格式及可合法分享的最小样本。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 设备与版本
+      placeholder: 例如：小米 15、Android 15、WebView 版本、叶读 0.1.9
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或补充信息
+      description: 分享前遮住通知、个人数据和受版权保护的正文。

@@ -1,0 +1,23 @@
+{
+  "owner": "simon2949",
+  "ownerId": 123351223,
+  "name": "leaf-reader",
+  "proposedUrl": "https://github.com/simon2949/leaf-reader",
+  "creationConfirmed": true,
+  "initialVisibility": "private",
+  "defaultBranch": "main",
+  "firstMilestone": "v0.1.12",
+  "description": "叶读 Leaf：Android 离线英文阅读器，点词查词、美音发音与生词整理。",
+  "confirmedUrl": "https://github.com/simon2949/leaf-reader",
+  "creationEvidence": "Authenticated GitHub API confirmed private repository and owner push/admin permissions on 2026-10-29.",
+  "visibilityVerified": "public",
+  "permissionVerified": "admin/push",
+  "authenticationVerifiedAs": "simon2949",
+  "sourceUploaded": true,
+  "firstMilestonePublished": true,
+  "releaseUrl": "https://github.com/simon2949/leaf-reader/releases/tag/v0.1.13",
+  "validationConclusion": "Original v0.1.13 full CI passed before clean-history publication; new repository runs CI again.",
+  "privateArchive": "simon2949/leaf-reader-private-archive-20261030",
+  "publicHistoryStart": "v0.1.13",
+  "publicationDate": "2026-10-30"
+}

@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-30",
+  "mespeak": {
+    "url": "https://www.masswerk.at/mespeak/mespeak.zip?v=2.0.7",
+    "archiveSha256": "0f64d9659cff8551d16473b65fae6e02439292c249e0c2c76f602b16838e5156",
+    "assets": [
+      {
+        "asset": "app/src/main/assets/web/vendor/mespeak/mespeak.js",
+        "upstreamFile": "mespeak/mespeak.js",
+        "matches": true,
+        "upstreamSha256": "84a321923cf7a552cc5d2c97c22d739a97e372557917de89280c4fb4ae040891",
+        "localSha256": "84a321923cf7a552cc5d2c97c22d739a97e372557917de89280c4fb4ae040891"
+      },
+      {
+        "asset": "app/src/main/assets/web/vendor/mespeak/mespeak-core.js",
+        "upstreamFile": "mespeak/mespeak-core.js",
+        "matches": false,
+        "upstreamSha256": "0945233a22ccbbcab2fd70607cb03605002eef16c00cce1c1c9617d46bbe0189",
+        "localSha256": "d5f6e6c85c63fd9126f8d8af5418c21ec84519cc8aa31ba84e388afd118883bb"
+      },
+      {
+        "asset": "app/src/main/assets/web/vendor/mespeak/en-us.json",
+        "upstreamFile": "mespeak/voices/en/en-us.json",
+        "matches": true,
+        "upstreamSha256": "757de5de43981ac734c51ee350632049a65c6a04b9ed1a630b9916cf88440721",
+        "localSha256": "757de5de43981ac734c51ee350632049a65c6a04b9ed1a630b9916cf88440721"
+      }
+    ],
+    "status": "Corresponding readable JS, eSpeak 1.45.04 C++ and phoneme/dictionary preferred inputs are now supplied. Current and official generated core code are identical; two wrapper lines differ. Native build and readable-JS rebuild verified; historical LLVM/Emscripten C++ cross-build not reproduced.",
+    "sourceBundle": "third_party/offline-speech/SOURCES.json",
+    "evidence": "docs/offline-speech-evidence.json",
+    "runtimeDifferentLines": [
+      2,
+      97
+    ]
+  }
+}
