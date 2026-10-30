@@ -1,74 +1,68 @@
 # 叶读 · Leaf
 
-Android 本地英文阅读器：阅读小说与文章，点词查询英汉／英英释义，听美音，并把生词和原句保存在本地。
+**让英文阅读更连贯，让词汇积累更自然。**
 
-**当前测试版：v0.1.13。** 已完成个人使用所需的阅读、查词、发音与生词整理功能。后续继续改进格式兼容性与真机体验。
+叶读是一款为英语学习者设计的 Android 英文阅读 App。无论是喜欢的小说，还是感兴趣的短文，你都可以在阅读时轻点生词，查看释义、听读音，再接着读下去。
 
-维护者：[simon2949](https://github.com/simon2949)。源码按 **GPL-3.0-only** 开源，第三方组件保留各自许可。公开版本从无内置真人录音的 v0.1.13 开始，包含离线合成引擎的 [对应源码与验证资料](docs/offline-speech.md)。
+我们希望查词自然地融入阅读，让你更容易沉浸在故事和内容中。随着读过的文章越来越多，把一次次遇见的生词留下来，在熟悉的语境中回看，逐渐扩大词汇量，也让自己更有信心读得更多。
 
-[下载 Android 测试版](https://github.com/simon2949/leaf-reader/releases/tag/v0.1.13) · [发布说明](docs/releases/v0.1.13.md) · [隐私说明](PRIVACY.md)
+[下载 Android 测试版](https://github.com/simon2949/leaf-reader/releases/tag/v0.1.13) · [查看更新](CHANGELOG.md) · [反馈问题与建议](https://github.com/simon2949/leaf-reader/issues)
 
+## 在阅读中理解生词
 
-## 功能
+遇到不认识的词，轻点即可在当前阅读页面查看中文释义或英文解释，也可以听美式发音。查询时会突出显示这个词和它所在的原句，帮助你结合上下文理解意思。
 
-- 分开的阅读首页与书架；继续阅读、每日短语和 8 张内置原创风景背景离线按日期轮换。
-- 导入无 DRM 的 TXT、EPUB、MOBI、AZW、AZW3；HTTPS 网页提取后离线阅读，也可粘贴文章。
-- 左右空白页边轻点、短距离滑动、可选音量键翻页，带短暂过渡；目录、书签、进度滑块和阅读位置自动保存。
-- 七种内置英文字体，字号、行距、页边距、四种对齐方式；日间浅底黑字，夜间黑底白字；应用内亮度调节。
-- 单击单词查词，突出原句和查询词；连字符两侧分别查词；收藏词及常见词形可显示下划线。
-- 生词本支持书籍／标签筛选、搜索、排序、批量整理、多次遇见的原句及返回原书；筛选使用应用内选择面板，每个单词右下角可直接设置标签，喇叭直接播放。
-- 本地 ZIP 备份与恢复，无账号、广告或统计 SDK。
+看完释义，收起词典，就能继续刚才的故事。查词、听音和收藏都在阅读过程中完成，减少切换应用和重新寻找阅读位置的打断。
 
-<table><tr><td><img src="docs/images/reading.png" width="230" alt="阅读菜单"></td><td><img src="docs/images/settings.png" width="230" alt="阅读设置"></td><td><img src="docs/images/home.png" width="230" alt="每日短语风景背景"></td><td><img src="docs/images/vocabulary.png" width="230" alt="生词本"></td></tr></table>
+## 让读过的内容成为自己的词汇积累
 
-截图为自创演示文章；页面随版本可能调整。更多变化见 [更新记录](CHANGELOG.md)。
+收藏一个单词时，也留下它所在的原句和书籍来源。回看时，你能重新想起它出现的情境；同一个词在不同内容中的遇见，也可以一起保存。
 
-## 离线资源与发音
+- **在语境中回看**：同时查看单词释义与原句，还可以返回原书继续阅读。
+- **按自己的方式整理**：按书籍筛选，用标签归类，方便重温最近阅读中遇到的词。
+- **在重逢时认出来**：已收藏的单词及常见词形可以显示下划线，帮助你留意它们再次出现。
 
-安装包包含 401,818 条词典记录、七种字体和美音合成引擎，不附带真人录音。已有且署名许可完整的发音缓存优先；联网时尝试获取真人美音并保留作者、来源和许可，缺少录音、下载失败或离线无缓存时使用内置合成。首次使用离线合成无需下载资源。合成声音偏机械，多音词不自动按语境消歧。
+让生词本与自己的阅读经历联系起来，为持续积累词汇提供一个方便的入口。
 
-来源、转换方式及许可原文见 [第三方声明](THIRD_PARTY_NOTICES.md)、[资源说明](docs/resources.md) 和 [核查记录](docs/license-audit.md)。应用代码采用 GPL-3.0-only；音频、字体等资源各自的许可需要分别遵守。
+## 读自己感兴趣的内容，慢慢增加阅读量
 
-## 构建 Android 应用
+把想读的英文小说和文章放进书架，从自己感兴趣的内容开始。阅读进度自动保存，下次打开就能继续；也可以通过每日短语，在零碎时间接触一点英文表达。
 
-需要 JDK 17、Android SDK Platform 35 和 Build Tools 35.0.0。设置 `ANDROID_HOME`，或在本机创建未纳入源码的 `local.properties`，填写 `sdk.dir=/你的/Android/SDK/路径`。
+- **自己的英文书架**：支持导入 TXT、EPUB、MOBI、AZW、AZW3 格式的未加密书籍，也支持粘贴文章、通过网页链接导入正文。
+- **适合自己的阅读方式**：可调整字体、字号、行距和页边距，切换日间或夜间模式；支持点击页边、滑动或音量键翻页。
+- **随时接着读**：目录、书签和自动保存的进度，让每次阅读都更容易开始。
 
-```sh
-./gradlew :app:assembleDebug :app:lintDebug
-```
+从一篇短文到一本小说，让阅读成为能够持续的小习惯。
 
-Windows 使用 `gradlew.bat`。首次构建需要网络下载构建依赖；完整资源已经随源码提供。输出为 `app/build/outputs/apk/debug/app-debug.apk`，使用本机开发签名。Android 8.0 及以上可安装，需要可用且保持更新的 Android System WebView。不同电脑的开发签名可能不同，覆盖安装不一定成功；换签名前先导出应用内备份。
+## 离线也能安心阅读
 
-## 开发预览和测试
+书籍导入后，阅读、查词、生词回看和语音合成都可以离线使用，无需另外下载词典或合成语音包。
 
-需要 Node.js 20 及以上、Python 3、JDK 17。
+联网时会尝试获取真人美音，已缓存的录音可离线播放；没有可用录音时使用内置美音合成。合成声音较机械，部分单词可能没有真人录音。
 
-```sh
-npm ci
-npx playwright install chromium
-npm test
-python3 tools/test_navigation.py
-npm run check:resources
-npm run check:speech
-npm run test:speech
-npm run test:web
-npm run test:formats
-```
+无需注册，没有广告。书籍、阅读进度和生词保存在本机，支持导出与恢复备份。卸载前请先导出备份。更多说明见 [隐私说明](PRIVACY.md)。
 
-浏览器流程测试会自动启动和关闭本地服务。已有 Chrome 时可设置 `CHROME_PATH=/实际/chrome/路径`。手动预览运行 `npm run preview`，打开 `http://127.0.0.1:4173`。预览使用 IndexedDB 和 Python SQLite 服务；Android 使用原生私有存储，不依赖此服务。
+## 看看叶读
 
-[贡献指南](CONTRIBUTING.md) 说明测试环境、原生设备测试和项目结构。[验证记录](docs/validation.md) 区分已运行的检查与待完成的真机验收。GitHub Actions 执行核心、资源、合成、浏览器、格式和 Android 构建检查，不会自动发布 APK。
+<table><tr><td><img src="docs/images/reading.png" width="230" alt="阅读中的目录与翻页菜单"></td><td><img src="docs/images/settings.png" width="230" alt="调整字体与阅读背景"></td><td><img src="docs/images/home.png" width="230" alt="继续阅读与每日短语"></td><td><img src="docs/images/vocabulary.png" width="230" alt="保存单词与阅读原句的生词本"></td></tr></table>
 
-## 当前边界
+截图使用自创演示文章，界面会随版本持续改进。
 
-不支持 PDF、KFX、AZW4、DRM 内容和需要登录／脚本才能提取的网页。单文件上限 80 MiB，备份解压上限 512 MiB。复杂或损坏电子书仍可能有兼容问题；小米 15 / HyperOS 等真实设备仍需验收。每日短语来自内置 60 条内容，并非联网生成。
+## 开始阅读
 
-数据只保存在本地；卸载前请在设置中导出备份。备份不加密，请自行妥善保管。在线发音和用户主动导入网页的网络行为见 [隐私说明](PRIVACY.md)。
+目前公开测试版为 **v0.1.13**，支持 Android 8.0 及以上。
 
-## 参与项目
+1. 打开 [下载页面](https://github.com/simon2949/leaf-reader/releases/tag/v0.1.13)，在 **Assets** 中下载 `.apk` 文件并安装。
+2. 导入一本英文书，或粘贴一篇想读的文章。
+3. 开始阅读，遇到生词时轻点查询，想留下的词随手收藏。
 
-- [新手开源操作指南](docs/open-source-guide.md)
-- [贡献指南](CONTRIBUTING.md) · [路线图](ROADMAP.md)
-- [安全问题反馈方式](SECURITY.md)
+下载无需登录 GitHub。当前为开发签名测试版，功能和格式兼容性仍会继续完善。暂不支持 PDF 和加密书籍；网页导入不支持需要登录或付费才能访问的内容。每日短语来自内置内容，按日期轮换。
 
-源码与测试版公开提供。[v0.1.13 测试版下载页](https://github.com/simon2949/leaf-reader/releases/tag/v0.1.13) 提供 APK 与 SHA-256 校验文件，无需登录即可下载。测试包使用开发签名；正式生产签名仍在规划中。
+## 一起改进叶读
+
+欢迎分享阅读体验、[反馈问题](https://github.com/simon2949/leaf-reader/issues)，或参与开发。我们希望和英语学习者一起，让叶读成为更顺手、更容易坚持使用的阅读工具。
+
+- [构建、预览与测试](docs/development.md) · [贡献指南](CONTRIBUTING.md) · [后续计划](ROADMAP.md)
+- [第三方资源与许可](THIRD_PARTY_NOTICES.md) · [离线合成引擎源码](docs/offline-speech.md) · [安全问题反馈](SECURITY.md)
+
+由 [simon2949](https://github.com/simon2949) 维护，源码按 [GPL-3.0-only](LICENSE) 开源；第三方组件和资源保留各自许可。

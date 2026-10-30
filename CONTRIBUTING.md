@@ -1,6 +1,6 @@
 # 参与开发
 
-先阅读 README、PRIVACY.md 和 docs/open-source-guide.md。当前快照为公开发布前准备阶段，资源许可尚有未决项。
+先阅读 README、PRIVACY.md 和 docs/open-source-guide.md。项目已公开，开发环境与构建步骤也可参阅 [开发说明](docs/development.md)。新增资源仍需逐项核对来源与许可。
 
 ## 开发环境
 

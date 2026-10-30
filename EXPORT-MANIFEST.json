@@ -41,8 +41,8 @@
   },
   {
     "path": "CONTRIBUTING.md",
-    "bytes": 2498,
-    "sha256": "d23bc357cf69aeb2678edddc323a5a27b59d0b21de798f10c6a918fb214096c9"
+    "bytes": 2567,
+    "sha256": "5b5d00ecfb6303e46f0620f3580e4f27bc2335dec195bd9032163ef1299347cc"
   },
   {
     "path": "LICENSE",
@@ -56,8 +56,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 5341,
-    "sha256": "031ac96a325d7d028e4533337c3aa520e30096b74ae3d46488165afdaebeb9d1"
+    "bytes": 4919,
+    "sha256": "64b25ced2f09eca08f700d950803256a60e1ca7d192da9e7213b49af5b832040"
   },
   {
     "path": "ROADMAP.md",
@@ -540,6 +540,11 @@
     "sha256": "ad6471b1e95bcb1b718fd3ffb0886c88b1531bc0394adf219bbe0c9a2003879d"
   },
   {
+    "path": "docs/development.md",
+    "bytes": 1690,
+    "sha256": "110a68835c453898264197b36100b325e40aacfe4e08bb54d793c0ab86967563"
+  },
+  {
     "path": "docs/github-repository.json",
     "bytes": 1081,
     "sha256": "32e65b3246109df5f2bca28de4f3e00a819ce11ce4766e064b1721b2b6c229c2"
@@ -635,6 +640,11 @@
     "sha256": "0c065f2f6f2a85d31b52aec0a2acdc7089514cf28c718e7ed29372f33b0b14c8"
   },
   {
+    "path": "gradle.properties",
+    "bytes": 76,
+    "sha256": "4d4c82226865844bdc85391d907a383da4a35d3a3f5348985d5ec3997ab932fe"
+  },
+  {
     "path": "gradle/wrapper/gradle-wrapper.jar",
     "bytes": 43504,
     "sha256": "498495120a03b9a6ab5d155f5de3c8f0d986a449153702fb80fc80e134484f17"
@@ -643,11 +653,6 @@
     "path": "gradle/wrapper/gradle-wrapper.properties",
     "bytes": 337,
     "sha256": "7811b7e9709748edc54d01918ac1b2acce8a9884d5cdd29e42d204d7d052dbf1"
-  },
-  {
-    "path": "gradle.properties",
-    "bytes": 76,
-    "sha256": "4d4c82226865844bdc85391d907a383da4a35d3a3f5348985d5ec3997ab932fe"
   },
   {
     "path": "gradlew",
